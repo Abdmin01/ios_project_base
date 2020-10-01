@@ -1,0 +1,3 @@
+#include "Pods/Target Support Files/Pods-ios_project_base/Pods-ios_project_base.release.xcconfig"
+
+GOOGLE_ID=put_your_google_id_here
