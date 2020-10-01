@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ios_project_base' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ios_project_base
+  
+  # moya
+  pod 'Moya/RxSwift'
+  
+  # Firebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  
+  # Common libraries
+  pod 'SwiftyUserDefaults'
+  pod 'IQKeyboardManagerSwift'
+  pod 'MXSegmentedControl'
+  pod 'Hero'
+  pod 'Localize-Swift'
+  
+  # RxSwift
+  pod 'RxSwift'
+  pod 'RxSwiftExt'
+  pod 'RxCocoa'
+  
+  pod 'ReactorKit'
+
+  target 'ios_project_baseTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ios_project_baseUITests' do
+    # Pods for testing
+  end
+
+end
