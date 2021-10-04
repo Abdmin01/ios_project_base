@@ -52,6 +52,7 @@
 		B01ED4BF270AEEED00AB279A /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01ED4BE270AEEED00AB279A /* PinterestLayout.swift */; };
 		B01ED4C1270AF1D200AB279A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01ED4C0270AF1D200AB279A /* CustomTextField.swift */; };
 		B0C65BA3270B3C3C00A2F4A8 /* CustomPassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C65BA2270B3C3C00A2F4A8 /* CustomPassthroughView.swift */; };
+		B0C65BA5270B3D4500A2F4A8 /* GridCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C65BA4270B3D4500A2F4A8 /* GridCollectionViewLayout.swift */; };
 		CC7B23F22F61C71A06CDC826 /* Pods_ios_project_base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3224B0AC0E29694C2E227295 /* Pods_ios_project_base.framework */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +131,7 @@
 		B01ED4BE270AEEED00AB279A /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		B01ED4C0270AF1D200AB279A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		B0C65BA2270B3C3C00A2F4A8 /* CustomPassthroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPassthroughView.swift; sourceTree = "<group>"; };
+		B0C65BA4270B3D4500A2F4A8 /* GridCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewLayout.swift; sourceTree = "<group>"; };
 		C0104A608F5E254DC8B26E81 /* Pods_ios_project_base_ios_project_baseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_project_base_ios_project_baseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B994472BD5EBF1EB5490D0 /* Pods-ios_project_base-ios_project_baseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_project_base-ios_project_baseUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios_project_base-ios_project_baseUITests/Pods-ios_project_base-ios_project_baseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8BD04CB23A1F394D8B4DDEA /* Pods-ios_project_base-ios_project_baseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_project_base-ios_project_baseUITests.release.xcconfig"; path = "Target Support Files/Pods-ios_project_base-ios_project_baseUITests/Pods-ios_project_base-ios_project_baseUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				B01ED4BE270AEEED00AB279A /* PinterestLayout.swift */,
 				B01ED4C0270AF1D200AB279A /* CustomTextField.swift */,
 				B0C65BA2270B3C3C00A2F4A8 /* CustomPassthroughView.swift */,
+				B0C65BA4270B3D4500A2F4A8 /* GridCollectionViewLayout.swift */,
 			);
 			path = "Custom UI";
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				3AF43F142525900800E8BAED /* ios_project_base+Appearance.swift in Sources */,
 				3AF43F3D2525900800E8BAED /* Int+Extensions.swift in Sources */,
 				3AF43F352525900800E8BAED /* UIColor+Extensions.swift in Sources */,
+				B0C65BA5270B3D4500A2F4A8 /* GridCollectionViewLayout.swift in Sources */,
 				3AF43F102525900800E8BAED /* SceneDelegate.swift in Sources */,
 				3AF43F552525900800E8BAED /* UICollectionView+Identifiable.swift in Sources */,
 				3AF43F462525900800E8BAED /* RxPinterestLayoutDelegateProxy.swift in Sources */,
