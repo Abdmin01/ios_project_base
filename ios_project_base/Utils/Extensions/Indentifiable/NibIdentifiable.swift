@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol NibIdentifiable: class {
+protocol NibIdentifiable: AnyObject {
     static var nib: UINib { get }
 }
 
