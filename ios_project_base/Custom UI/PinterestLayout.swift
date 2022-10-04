@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-@objc protocol PinterestLayoutDelegate: class {
+@objc protocol PinterestLayoutDelegate: AnyObject {
     func collectionView(_ collectionView: UICollectionView, sizeForPhotoAtIndexPath indexPath: IndexPath) -> CGSize
 }
 

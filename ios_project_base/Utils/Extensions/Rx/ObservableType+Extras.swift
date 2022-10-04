@@ -43,7 +43,7 @@ extension ObservableType {
     }
     
     func orEmpty() -> Observable<Element> {
-        return catchError { _ in
+        return self.catch { _ in
             return .empty()
         }
     }
