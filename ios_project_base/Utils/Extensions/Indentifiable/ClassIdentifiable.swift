@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol ClassIdentifiable: class {
+protocol ClassIdentifiable: AnyObject {
     static var reuseId: String { get }
 }
 
